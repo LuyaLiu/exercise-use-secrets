@@ -6,7 +6,7 @@ inputs:
   your-secret: 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
     description: A Personal Access Token with the repo scope stored as a secret
     required: true
-  secrets-context:
+  secrets-context: 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
     description: The GitHub Actions secrets context object
     required: true
 
