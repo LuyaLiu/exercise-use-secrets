@@ -3,10 +3,10 @@ author: mattdavis0351
 description: validation action for this lab
 
 inputs:
-  your-secret: ${{ secrets.MY_PAT }}
+  your-secret: 
   description: A Personal Access Token with the repo scope stored as a secret
   required: true
-  secrets-context: ${{ toJSON(secrets.MY_PAT) }}
+  secrets-context: ${{ toJSON(secrets.YourSecret) }}
   description: The GitHub Actions secrets context object
   required: true
 
